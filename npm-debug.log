@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.30/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.30/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/ubuntu/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/ubuntu/.npm/chat-example/0.0.0/package.tgz', '.' ]
+11 verbose tarball /home/ubuntu/.npm/chat-example/0.0.0/package.tgz
+12 verbose folder .
+13 info prepublish chat-example@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/ubuntu/.npm/1f1177db-tar.lock
+16 silly lockFile 41ff9ff4-m-chat-example-0-0-0-package-tgz tar:///home/ubuntu/.npm/chat-example/0.0.0/package.tgz
+17 verbose lock tar:///home/ubuntu/.npm/chat-example/0.0.0/package.tgz /home/ubuntu/.npm/41ff9ff4-m-chat-example-0-0-0-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 41ff9ff4-m-chat-example-0-0-0-package-tgz tar:///home/ubuntu/.npm/chat-example/0.0.0/package.tgz
+21 silly lockFile 41ff9ff4-m-chat-example-0-0-0-package-tgz tar:///home/ubuntu/.npm/chat-example/0.0.0/package.tgz
+22 silly lockFile 74ccfc81-u-npm-chat-example-0-0-0-package /home/ubuntu/.npm/chat-example/0.0.0/package
+23 verbose lock /home/ubuntu/.npm/chat-example/0.0.0/package /home/ubuntu/.npm/74ccfc81-u-npm-chat-example-0-0-0-package.lock
+24 silly lockFile 74ccfc81-u-npm-chat-example-0-0-0-package /home/ubuntu/.npm/chat-example/0.0.0/package
+25 silly lockFile 74ccfc81-u-npm-chat-example-0-0-0-package /home/ubuntu/.npm/chat-example/0.0.0/package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'chat-example',
+28 silly publish   version: '0.0.0',
+28 silly publish   description: 'A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.',
+28 silly publish   main: 'server.js',
+28 silly publish   repository: '',
+28 silly publish   author: { name: 'Mostafa Eweda', email: 'mo.eweda@gmail.com' },
+28 silly publish   dependencies: { async: '~0.2.8', express: '~3.2.4', 'socket.io': '~0.9.14' },
+28 silly publish   scripts: { start: 'node server.js' },
+28 silly publish   readme: '\n     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.\n    \'  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---\'\n    |  |    |  || .-. ||  ||  |\' .-. |`..\'  |  |  ||  |  \\  :|  `--, \n    \'  \'--\'\\|  |\' \'-\' \'\'  \'\'  \'\\ `-\' | .\'  /   |  ||  \'--\'  /|  `---.\n     `-----\'`--\' `---\'  `----\'  `---\'  `--\'    `--\'`-------\' `------\'\n    ----------------------------------------------------------------- \n\n\nWelcome to your Node.js project on Cloud9 IDE!\n\nThis chat example showcases how to use `socket.io` with a static `express` server.\n\n## Running the server\n\n1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.\n\n2) Alternatively you can launche the app from the Terminal:\n\n    $ node server.js\n\nOnce the server is running, open the project in the shape of \'https://projectname-c9-username.c9.io/\'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.\n',
+28 silly publish   readmeFilename: 'README.md',
+28 silly publish   _id: 'chat-example@0.0.0',
+28 silly publish   _shasum: '9f25717408c9a8f6d3c3ecf83da0a1c5f2b9c22c',
+28 silly publish   _from: '.' }
+29 verbose request where is /chat-example
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id fcdc5a8666d60f34
+32 verbose url raw /chat-example
+33 verbose url resolving [ 'https://registry.npmjs.org/', './chat-example' ]
+34 verbose url resolved https://registry.npmjs.org/chat-example
+35 verbose request where is https://registry.npmjs.org/chat-example
+36 info trying registry request attempt 1 at 03:54:52
+37 http PUT https://registry.npmjs.org/chat-example
+38 http 403 https://registry.npmjs.org/chat-example
+39 verbose headers { date: 'Sun, 07 Sep 2014 03:54:53 GMT',
+39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=60',
+39 verbose headers   'content-length': '1961',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'x-served-by': 'cache-ord1731-ORD',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1410062092.912101,VS0,VE600',
+39 verbose headers   'keep-alive': 'timeout=10, max=50',
+39 verbose headers   connection: 'Keep-Alive' }
+40 error publish Failed PUT 403
+41 error Error: forbidden user: lauren01123 not authorized to modify chat-example
+41 error Changed: description "my first chat app" -> "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow."
+41 error Changed: dist-tags.latest "0.0.1" -> "0.0.0"
+41 error Added: versions.0.0.0
+41 error Changed: readme "# chat-example\u000a\u000aSo I have something to show at my talks this month. :-)\u000a" -> "\u000a     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.\u000a    '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'\u000a    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--, \u000a    '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.\u000a     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'\u000a    ----------------------------------------------------------------- \u000a\u000a\u000aWelcome to your Node.js project on Cloud9 IDE!\u000a\u000aThis chat example showcases how to use `socket.io` with a static `express` server.\u000a\u000a## Running the server\u000a\u000a1) Open `server.js` and start the app by clicking on the \"Run\" button in the top menu.\u000a\u000a2) Alternatively you can launche the app from the Terminal:\u000a\u000a    $ node server.js\u000a\u000aOnce the server is running, open the project in the shape of 'https://projectname-c9-username.c9.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.\u000a"
+41 error Changed: time.modified "2012-10-03T21:42:40.538Z" -> "2014-09-07T03:53:04.917Z"
+41 error Added: time.0.0.0
+41 error Changed: author.name "Ben Noordhuis" -> "Mostafa Eweda"
+41 error Changed: author.email "info@bnoordhuis.nl" -> "mo.eweda@gmail.com"
+41 error Deleted: repository
+41 error Changed: readmeFilename "" -> "README.md"
+41 error Deleted: keywords
+41 error Deleted: license
+41 error Added: _attachments: chat-example
+41 error     at RegClient.<anonymous> (/home/ubuntu/.nvm/v0.10.30/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:300:14)
+41 error     at Request._callback (/home/ubuntu/.nvm/v0.10.30/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:65)
+41 error     at Request.self.callback (/home/ubuntu/.nvm/v0.10.30/lib/node_modules/npm/node_modules/request/request.js:123:22)
+41 error     at Request.emit (events.js:98:17)
+41 error     at Request.<anonymous> (/home/ubuntu/.nvm/v0.10.30/lib/node_modules/npm/node_modules/request/request.js:893:14)
+41 error     at Request.emit (events.js:117:20)
+41 error     at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/v0.10.30/lib/node_modules/npm/node_modules/request/request.js:844:12)
+41 error     at IncomingMessage.emit (events.js:117:20)
+41 error     at _stream_readable.js:938:16
+41 error     at process._tickCallback (node.js:419:13)
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Linux 3.14.12-c9
+44 error command "/home/ubuntu/.nvm/v0.10.30/bin/node" "/home/ubuntu/.nvm/v0.10.30/bin/npm" "publish"
+45 error cwd /home/ubuntu/workspace
+46 error node -v v0.10.30
+47 error npm -v 1.4.21
+48 verbose exit [ 1, true ]
